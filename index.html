@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="茶话弄 ChaHalo Berkeley — 从西安到伯克利，一杯茶的相遇。">
+  <title>ChaHalo Berkeley 茶话弄 | 从西安到伯克利</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Noto+Serif+SC:wght@500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header navbar navbar-expand-lg" data-header>
+  <a class="brand navbar-brand" href="#top"><span class="brand-en">ChaHalo</span><span class="brand-cn">茶话弄</span></a>
+  <button class="nav-toggle navbar-toggler" aria-expanded="false" aria-controls="site-nav" aria-label="打开菜单 Open menu"><span></span><span></span></button>
+  <nav id="site-nav" class="site-nav navbar-nav" aria-label="主导航 Primary navigation">
+    <a href="#drinks"><b>饮品</b><small>Drinks</small></a><a href="#story"><b>我们的故事</b><small>Our Story</small></a>
+    <a href="#tea"><b>茶叶</b><small>Our Tea</small></a><a href="#space"><b>空间</b><small>Space</small></a><a href="#visit"><b>访问</b><small>Visit</small></a>
+    <a class="nav-cta" href="#order"><b>在线点单</b><small>Order</small></a>
+  </nav>
+</header>
+<main id="top">
+  <section class="hero" aria-labelledby="hero-title">
+    <img class="hero-image" src="assets/store/hero.jpg" alt="茶话弄伯克利店暖色木质空间"><div class="hero-shade"></div>
+    <div class="hero-copy reveal">
+      <p class="eyebrow">茶话弄伯克利店 <span>ChaHalo Berkeley</span></p>
+      <h1 id="hero-title">从西安到伯克利，<br>一杯茶的相遇。</h1>
+      <p class="hero-en">From Xi’an to Berkeley, a meeting over a cup of tea.</p>
+      <div class="hero-actions"><a class="button button-light" href="#drinks"><b>探索饮品</b><small>Explore Drinks</small></a><a class="button button-ghost" href="https://maps.apple.com/?q=ChaHalo%20Berkeley&address=2041%20University%20Ave%2C%20Berkeley%2C%20CA%2094704" target="_blank"><b>前往门店</b><small>Get Directions</small></a></div>
+    </div>
+    <a class="scroll-cue" href="#drinks"><span></span>向下浏览 · Discover</a>
+  </section>
+
+  <section id="drinks" class="section drinks-section">
+    <div class="section-heading reveal"><div><p class="eyebrow">今日喝什么 <span>What to Sip</span></p><h2>店内人气饮品</h2><p class="heading-en">House Favorites</p></div><div class="bilingual-copy"><p>从焙火乌龙到醇香抹茶，每一杯都从茶香出发，搭配鲜奶、花香或当季鲜果。</p><p lang="en">From roasted oolong to rich matcha, every drink begins with tea and is layered with fresh milk, flowers, or seasonal fruit.</p></div></div>
+    <div class="filter-row reveal"><button class="filter active" data-filter="all">全部 <small>All</small></button><button class="filter" data-filter="classic">原叶奶茶 <small>Milk Tea</small></button><button class="filter" data-filter="boba">手作啵啵 <small>Boba</small></button><button class="filter" data-filter="matcha">抹茶 <small>Matcha</small></button><button class="filter" data-filter="fruit">鲜果茶 <small>Fruit</small></button><button class="filter" data-filter="pure">纯茶 <small>Pure Tea</small></button></div>
+    <div class="drink-grid">
+      <article class="drink-card large reveal" data-category="classic"><div class="drink-media"><img src="assets/products/osmanthus.jpg" alt="桂花引" loading="lazy"></div><div class="drink-copy"><span class="tag">招牌 · Signature</span><h3>桂花引</h3><h4>Osmanthus Oolong Milk Tea</h4><p>三重焙火乌龙与天然桂花香交织，入口醇厚、回味清雅。</p><p lang="en">Roasted oolong and natural osmanthus create a floral, toasty finish.</p></div></article>
+      <article class="drink-card reveal" data-category="classic"><div class="drink-media"><img src="assets/products/jasmine.jpg" alt="茉莉奶绿" loading="lazy"></div><div class="drink-copy"><span class="tag">花香 · Floral</span><h3>茉莉奶绿</h3><h4>Jasmine Green Milk Tea</h4><p>清新茉莉绿茶与鲜奶相遇，轻盈柔和。</p><p lang="en">Jasmine green tea and fresh milk, light and softly floral.</p></div></article>
+      <article class="drink-card reveal" data-category="classic"><div class="drink-media"><img src="assets/products/rock-oolong.jpg" alt="岩韵乌龙奶茶" loading="lazy"></div><div class="drink-copy"><span class="tag">焙火 · Roasted</span><h3>岩韵乌龙奶茶</h3><h4>Rock Oolong Milk Tea</h4><p>岩韵与焙火香清晰，奶香顺滑不夺茶味。</p><p lang="en">Mineral-rich roasted oolong with a smooth milk finish.</p></div></article>
+      <article class="drink-card reveal" data-category="classic"><div class="drink-media portrait"><img src="assets/products/meizhan-frappe.jpg" alt="梅占摇红" loading="lazy"></div><div class="drink-copy"><span class="tag">冰爽 · Frappé</span><h3>梅占摇红</h3><h4>ChaHalo Black Milk Tea Frappé</h4><p>金骏眉红茶、鲜奶与冰沙交融，顶部加入奶油与碧根果碎。</p><p lang="en">Jin Jun Mei black tea blended with milk and ice, topped with cream and pecans.</p></div></article>
+      <article class="drink-card reveal" data-category="classic"><div class="drink-media"><img src="assets/products/dayu.jpg" alt="黛玉岩茶" loading="lazy"></div><div class="drink-copy"><span class="tag">岩韵 · Rock Tea</span><h3>黛玉</h3><h4>Grape Flavored Oolong Milk Tea</h4><p>焦香岩茶搭配清甜葡萄香气，焙火醇厚而果香明亮。</p><p lang="en">Roasted rock oolong with a bright, gentle grape aroma.</p></div></article>
+      <article class="drink-card reveal" data-category="classic"><div class="drink-media"><img src="assets/products/fusheng.jpg" alt="茯生半日闲" loading="lazy"></div><div class="drink-copy"><span class="tag">咸甜 · Salted Plum</span><h3>茯生半日闲</h3><h4>Dark Milk Tea with Salted Plum</h4><p>泾阳茯茶与老盐糖、鲜奶交融，咸甜回甘，茶香醇厚。</p><p lang="en">Jingyang Fu tea, salted plum syrup, and milk with a smooth sweet-salty finish.</p></div></article>
+
+      <article class="drink-card reveal" data-category="boba"><div class="drink-media"><img src="assets/products/boba-rock.jpg" alt="南山珍珠岩茶" loading="lazy"></div><div class="drink-copy"><span class="tag">手熬珍珠 · Handmade Boba</span><h3>南山珍珠岩茶</h3><h4>Rock Oolong Milk Tea with Handmade Boba</h4><p>焙火岩茶、鲜奶与每日手熬黑糖珍珠。</p><p lang="en">Roasted oolong, fresh milk, and house-made brown sugar boba.</p></div></article>
+      <article class="drink-card reveal" data-category="boba"><div class="drink-media"><img src="assets/products/boba-fresh-milk.jpg" alt="手熬珍珠牛乳" loading="lazy"></div><div class="drink-copy"><span class="tag">黑糖 · Brown Sugar</span><h3>手熬珍珠牛乳</h3><h4>Fresh Milk with Handmade Boba</h4><p>温热黑糖珍珠与冰凉鲜奶形成浓郁层次。</p><p lang="en">Warm brown sugar boba meets cold fresh milk.</p></div></article>
+      <article class="drink-card reveal" data-category="boba"><div class="drink-media"><img src="assets/products/boba-osmanthus.jpg" alt="桂花珍珠乌龙" loading="lazy"></div><div class="drink-copy"><span class="tag">桂花 · Osmanthus</span><h3>桂花珍珠乌龙</h3><h4>Osmanthus Oolong Milk Tea with Handmade Boba</h4><p>桂花乌龙奶茶加入弹韧黑糖珍珠，花香与焦糖香相融。</p><p lang="en">Floral oolong milk tea with chewy brown sugar boba.</p></div></article>
+      <article class="drink-card reveal" data-category="boba matcha"><div class="drink-media"><img src="assets/products/pearl-matcha.jpg" alt="手熬珍珠抹茶乳" loading="lazy"></div><div class="drink-copy"><span class="tag">抹茶 · Matcha</span><h3>手熬珍珠抹茶乳</h3><h4>Matcha Latte with Handmade Boba</h4><p>黑糖珍珠、鲜奶与现调抹茶，浓郁顺滑。</p><p lang="en">Brown sugar boba, fresh milk, and freshly whisked matcha.</p></div></article>
+      <article class="drink-card reveal" data-category="matcha"><div class="drink-media"><img src="assets/products/cloud-matcha.jpg" alt="轻云特浓抹" loading="lazy"></div><div class="drink-copy"><span class="tag">茶感 · Tea-forward</span><h3>轻云特浓抹</h3><h4>Light Cloud Rich Matcha</h4><p>杭州径山春季抹茶，嫩香、深醇、余韵悠长。</p><p lang="en">Spring-picked Jingshan matcha with a tender aroma and long finish.</p></div></article>
+      <article class="drink-card reveal" data-category="matcha"><div class="drink-media"><img src="assets/products/orchid-matcha.jpg" alt="知兰浓抹" loading="lazy"></div><div class="drink-copy"><span class="tag">兰香 · Aromatic</span><h3>知兰浓抹</h3><h4>Orchid Rich Matcha</h4><p>径山抹茶叠加建兰香气，花香潜入浓抹。</p><p lang="en">Jingshan matcha layered with the soft fragrance of Jianlan orchid.</p></div></article>
+
+      <article class="drink-card reveal" data-category="fruit"><div class="drink-media"><img src="assets/products/lychee.jpg" alt="长安荔枝" loading="lazy"></div><div class="drink-copy"><span class="tag">原果 · Real Fruit</span><h3>长安荔枝</h3><h4>Chang’an Lychee</h4><p>原果真汁与桂花乌龙相融，清甜多汁。</p><p lang="en">Real lychee and osmanthus oolong—bright, floral, and juicy.</p></div></article>
+      <article class="drink-card large reveal" data-category="fruit"><div class="drink-media"><img src="assets/products/lychee-ice.jpg" alt="长安雪荔冰" loading="lazy"></div><div class="drink-copy"><span class="tag">时令 · Seasonal</span><h3>长安雪荔冰</h3><h4>Chang’an Lychee Ice</h4><p>荔枝冰沙、鲜果粒与弹嫩冻冻，沁凉清甜。</p><p lang="en">Silky lychee ice with fresh fruit and bouncy jelly.</p></div></article>
+      <article class="drink-card reveal" data-category="fruit"><div class="drink-media portrait"><img src="assets/products/lemon-series.jpg" alt="手捣柠檬茶" loading="lazy"></div><div class="drink-copy"><span class="tag">手捣 · Hand-pressed</span><h3>手捣柠檬茶</h3><h4>Fresh Roasted Oolong Lemon Tea</h4><p>焙火乌龙与香水柠檬现捣现做，清爽醒茶。</p><p lang="en">Freshly pressed perfume lemon with roasted oolong tea.</p></div></article>
+      <article class="drink-card reveal" data-category="fruit"><div class="drink-media"><img src="assets/products/pistachio-coconut.jpg" alt="开心果椰香水" loading="lazy"></div><div class="drink-copy"><span class="tag">椰香 · Coconut</span><h3>开心果椰香水</h3><h4>Coconut Water with Pistachio Cheese Foam</h4><p>清甜椰子水配开心果芝士奶盖，轻盈又有坚果香。</p><p lang="en">Coconut water finished with a rich pistachio cheese foam.</p></div></article>
+      <article class="drink-card reveal" data-category="fruit"><div class="drink-media portrait"><img src="assets/products/strawberry-series.jpg" alt="莓莓知兰" loading="lazy"></div><div class="drink-copy"><span class="tag">草莓 · Strawberry</span><h3>莓莓知兰</h3><h4>Strawberry Fruit Milk with Orchid Tea</h4><p>兰香茶底、鲜奶、草莓果肉与冻冻，果香柔和。</p><p lang="en">Orchid tea, milk, strawberry pulp, and jelly.</p></div></article>
+      <article class="drink-card reveal" data-category="fruit"><div class="drink-media portrait"><img src="assets/products/strawberry-series.jpg" alt="莓雪知音" loading="lazy"></div><div class="drink-copy"><span class="tag">冰沙 · Smoothie</span><h3>莓雪知音</h3><h4>Orchid Scented Strawberry Smoothie</h4><p>草莓冰沙、鲜果肉与水晶珍珠，酸甜清凉。</p><p lang="en">A strawberry smoothie with fruit pulp and crystal pearls.</p></div></article>
+      <article class="drink-card reveal" data-category="fruit"><div class="drink-media"><img src="assets/products/grape-mulberry.jpg" alt="葡玉问墨" loading="lazy"></div><div class="drink-copy"><span class="tag">桑葚 · Mulberry</span><h3>葡玉问墨</h3><h4>Grape Flavored Mulberry Roasted Tea</h4><p>焙火茶、香水柠檬与桑葚葡萄果香，色泽浓郁。</p><p lang="en">Roasted tea with perfume lemon, mulberry, and grape.</p></div></article>
+      <article class="drink-card reveal" data-category="fruit"><div class="drink-media"><img src="assets/products/peach-jasmine.jpg" alt="鲜桃茉莉冰茶" loading="lazy"></div><div class="drink-copy"><span class="tag">鲜桃 · Peach</span><h3>鲜桃茉莉冰茶</h3><h4>Jasmine Green Peach Iced Tea</h4><p>茉莉绿茶与鲜桃果肉相融，清香、脆爽、多汁。</p><p lang="en">Jasmine green tea layered with fresh peach and crisp fruit pieces.</p></div></article>
+      <article class="drink-card reveal" data-category="fruit"><div class="drink-media"><img src="assets/products/peach-strawberry.jpg" alt="桃桃莓莓芝士" loading="lazy"></div><div class="drink-copy"><span class="tag">芝士奶盖 · Cheese Foam</span><h3>桃桃莓莓芝士</h3><h4>Peach Strawberry Jasmine Green Slush</h4><p>桃子、草莓与茉莉绿茶冰沙，覆上绵密芝士奶盖。</p><p lang="en">Peach, strawberry, and jasmine green tea slush with cheese foam.</p></div></article>
+      <article class="drink-card reveal" data-category="fruit"><div class="drink-media"><img src="assets/products/mango-orchid.jpg" alt="芝云香芒" loading="lazy"></div><div class="drink-copy"><span class="tag">芒果冰沙 · Mango Smoothie</span><h3>芝云香芒</h3><h4>Orchid Scented Mango Smoothie</h4><p>鲜芒果搭配兰花绿茶与绵密芝士奶盖，果香先行，茶香收尾。</p><p lang="en">Fresh mango smoothie with orchid green tea and a smooth cheese foam.</p></div></article>
+      <article class="drink-card reveal" data-category="fruit"><div class="drink-media"><img src="assets/products/mango-oolong.jpg" alt="芒芒乌龙" loading="lazy"></div><div class="drink-copy"><span class="tag">芒果果乳 · Mango Fruit Milk</span><h3>芒芒乌龙</h3><h4>Mango Fruit Milk with Roasted Oolong Tea</h4><p>鲜甜芒果果乳融入焙火乌龙，奶香柔和，茶韵醇厚。</p><p lang="en">Fresh mango fruit milk balanced with the deep aroma of roasted oolong tea.</p></div></article>
+
+      <article class="drink-card reveal" data-category="pure"><div class="drink-media"><img src="assets/products/black-tea-cheese.jpg" alt="长安红茶芝士奶盖" loading="lazy"></div><div class="drink-copy"><span class="tag">芝士奶盖 · Cheese Foam</span><h3>长安红茶芝士奶盖</h3><h4>ChaHalo Black Tea with Cheese Foam</h4><p>金骏眉红茶清甜醇香，覆上咸香绵密芝士奶盖。</p><p lang="en">Jin Jun Mei black tea topped with smooth, lightly salted cheese foam.</p></div></article>
+      <article class="drink-card reveal" data-category="pure"><div class="drink-media"><img src="assets/products/yuqian-chunlan.jpg" alt="雨前春兰" loading="lazy"></div><div class="drink-copy"><span class="tag">清香 · Pure Tea</span><h3>雨前春兰</h3><h4>Yu Qian Chun Lan Tea</h4><p>雨前嫩叶带来清鲜兰香，茶汤轻盈、回甘干净。</p><p lang="en">Tender spring tea with a clean orchid aroma and gentle finish.</p></div></article>
+    </div>
+    <div class="center reveal"><a class="text-link" href="https://m.yelp.com/menu/chahalo-berkeley-3?utm_campaign=action_link_view_menu&utm_medium=feed_v2&utm_source=apple" target="_blank">查看完整菜单 <small>View Full Menu</small> ↗</a></div>
+  </section>
+
+  <section class="oat-section section">
+    <div class="oat-copy reveal"><p class="eyebrow">燕麦奶选择 <span>Oat Milk Options</span></p><h2>换一种奶，也保留茶香。</h2><p>桂花引、芊芊绿雪与南山烟雨都可搭配燕麦奶。口感轻盈柔和，茶香依然清晰。</p><p lang="en">Osmanthus Oolong, Jasmine Green, and Roasted Oolong milk teas can be paired with oat milk for a lighter, smooth finish.</p></div>
+    <figure class="reveal"><img src="assets/products/oat-milk-guide.jpg" alt="茶话弄燕麦奶点单指南" loading="lazy"><figcaption>燕麦奶点单指南 · Oat Milk Ordering Guide</figcaption></figure>
+  </section>
+
+  <section id="story" class="origin-hero">
+    <img src="assets/brand/story-origin.jpg" alt="茶话弄书法墙" loading="lazy"><div class="origin-overlay"></div>
+    <div class="origin-title reveal"><p class="eyebrow">品牌起源 <span>Our Story</span></p><h2>一杯茶，从长安出发。</h2><p class="heading-en">A cup of tea, beginning in Chang’an.</p></div>
+  </section>
+  <section class="story-details section">
+    <article class="story-block reveal"><span class="story-number">01</span><div><h2>源起西安</h2><h3>Our Story</h3><p>2016年冬，茶话弄的故事始于十三朝古都西安的一间小茶铺。从传统中国茶文化出发，茶话弄以原叶茶、自然原料和新鲜现泡茶汤，为现代生活带来一杯既有传统味道、又适合年轻人的中国茶饮。</p><p lang="en">ChaHalo began in Xi’an in the winter of 2016. Xi’an is a historic city known as the heart of thirteen Chinese dynasties. From a small tea shop, ChaHalo grew by bringing traditional Chinese tea culture into modern daily life. We use handpicked tea leaves, natural ingredients, and freshly brewed tea to create drinks that feel both traditional and new.</p></div></article>
+    <article class="story-block reveal"><span class="story-number">02</span><div><h2>伯克利门店</h2><h3>Our Berkeley Store</h3><p>茶话弄 Berkeley 位于 UC Berkeley 与伯克利市中心附近，为学生、本地居民和来自各地的游客提供中国茶饮。在上课、学习、工作与通勤的忙碌之间，我们希望一杯香甜的茶饮能让你暂时放松，也让一天的心情变得更好。欢迎来到店里喝杯茶、聊聊天，再重新出发。</p><p lang="en">Located near UC Berkeley and Downtown Berkeley, ChaHalo Berkeley serves students, local residents, and visitors from around the world. Between classes, study sessions, work, and commuting, we hope a sweet cup of tea can give you a quiet break and make your day a little better. Come in, enjoy a drink, talk with friends, and take a moment to recharge.</p></div></article>
+  </section>
+
+  <section id="tea" class="tea-section">
+    <div class="tea-philosophy reveal"><img src="assets/brand/tea-fields-clean.png" alt="新鲜茶园与手工采摘茶叶" loading="lazy"><div class="tea-overlay"></div><div class="tea-title"><div class="tea-title-panel"><h2>好茶、真茶、新鲜现泡</h2><p>True &amp; Pure Tea Philosophy</p><div>健康自然原料 · 手工采摘茶叶 · 新鲜现泡茶汤<small>Healthy natural ingredients · Handpicked tea leaves · Freshly brewed tea</small></div></div></div></div>
+    <div class="tea-copy section">
+      <div class="section-heading reveal"><div><p class="eyebrow">茶叶与原料 <span>Our Tea</span></p><h2>三款原叶茶</h2><p class="heading-en">Three Teas, Three Traditions</p></div><div class="bilingual-copy"><p>从花香乌龙、鲜嫩红茶到自然发酵黑茶，每一杯都保留茶叶本身的香气与性格。</p><p lang="en">From floral oolong and tender black tea to naturally fermented dark tea, every cup keeps the character of the leaf.</p></div></div>
+      <div class="tea-cards reveal">
+        <article><b>01</b><h3>桂花乌龙茶</h3><h4>Osmanthus Oolong Tea</h4><p>三重焙火的优质乌龙，融合天然桂花香。</p><p lang="en">Premium oolong roasted at three different levels and blended with the natural fragrance of osmanthus.</p></article>
+        <article><b>02</b><h3>金骏眉红茶</h3><h4>Jin Jun Mei Black Tea</h4><p>精选鲜嫩芽头制成，茶香细腻甘醇。</p><p lang="en">A carefully selected black tea made from handpicked young tea buds.</p></article>
+        <article><b>03</b><h3>泾阳茯茶</h3><h4>Jingyang Fu Dark Tea</h4><p>自然发酵的经典黑茶，素有“丝路黑金”之称。</p><p lang="en">A naturally fermented dark tea traditionally known as the “Black Gold of the Silk Road.”</p></article>
+      </div>
+      <figure class="tea-selection reveal"><img src="assets/brand/tea-selection.png" alt="桂花乌龙、金骏眉红茶与泾阳茯茶" loading="lazy"><figcaption>三款茶叶原图 · Our three signature tea leaves</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="brand-principles section">
+    <div class="section-heading reveal"><div><p class="eyebrow">品牌理念 <span>Our Beliefs</span></p><h2>闲时茶话</h2><p class="heading-en">Tea and conversation, whenever there is time.</p></div></div>
+    <div class="principle-grid"><img class="reveal" src="assets/store/lounge.jpg" alt="茶话弄伯克利店内空间" loading="lazy"><div class="principle-copy reveal"><dl><div><dt>使命 <small>Mission</small></dt><dd>唤醒东方人骨子里的爱茶基因<small>Awaken the love of tea rooted in Eastern culture.</small></dd></div><div><dt>口号 <small>Slogan</small></dt><dd>喝喝茶，说说话，啥也不弄<small>Drink tea, talk together, and simply slow down.</small></dd></div><div><dt>品牌价值观 <small>Values</small></dt><dd>本分守拙 · 真诚守信 · 一颗少年心<small>Stay grounded · Be sincere · Keep a youthful heart.</small></dd></div></dl></div></div>
+  </section>
+  <section class="milk-section section"><img class="reveal" src="assets/brand/great-tea-milk.png" alt="Great Tea With Great Milk" loading="lazy"><div class="milk-copy reveal"><h2>好茶配好奶</h2><h3>Great Tea With Great Milk</h3><p>茶话弄坚持每一杯都使用新鲜现泡茶底，不添加植脂末，并清楚呈现每杯饮品的热量信息。</p><p lang="en">ChaHalo insists on a freshly brewed tea base for every cup. No creamer powder is added, and calorie information is shown clearly.</p></div></section>
+
+  <section id="space" class="section space-section">
+    <div class="section-heading reveal"><div><p class="eyebrow">店内空间 <span>Inside ChaHalo</span></p><h2>伯克利的一处暖意</h2><p class="heading-en">A Warm Corner in Berkeley</p></div><div class="bilingual-copy"><p>木质空间、柔和灯光、茶器与长安风格画面，构成适合喝茶、聊天和短暂停留的安静角落。</p><p lang="en">Wood, soft light, tea ware, and Chang’an-inspired artwork create a calm place to sip, chat, and stay awhile.</p></div></div>
+    <div class="gallery"><figure class="gallery-wide reveal"><img src="assets/store/counter.jpg" alt="茶话弄伯克利吧台" loading="lazy"><figcaption>茶饮吧台 <small>The Tea Bar</small></figcaption></figure><figure class="reveal"><img src="assets/store/entrance.jpg" alt="茶话弄伯克利门店入口" loading="lazy"><figcaption>大学大道 <small>University Avenue</small></figcaption></figure><figure class="reveal"><img src="assets/store/details.jpg" alt="店内茶器陈列" loading="lazy"><figcaption>茶文化细节 <small>Tea Culture Details</small></figcaption></figure></div>
+  </section>
+  <section id="visit" class="visit-section">
+    <div class="visit-art reveal"><span>来</span><span>喝</span><span>茶</span></div>
+    <div class="visit-copy reveal"><p class="eyebrow">欢迎来店 <span>Come By</span></p><h2>ChaHalo<br>Berkeley</h2><address>加州伯克利大学大道 2041 号，邮编 94704<small>2041 University Avenue, Berkeley, CA 94704</small></address><div class="visit-meta"><div><span>营业时间 <small>Hours</small></span><strong>每日 11:00–21:30<small>Daily · 11:00 AM–9:30 PM</small></strong></div><div><span>电话 <small>Phone</small></span><strong><a href="tel:+15109905536">(510) 990-5536</a></strong></div></div><div id="order" class="order-box"><p><b>外卖点单</b><small>Delivery &amp; Pickup</small></p><div class="visit-actions"><a class="button button-doordash" href="https://www.doordash.com/store/chahalo-berkeley-42386611/" target="_blank" rel="noreferrer"><b>DoorDash 点单</b><small>Order Delivery</small></a><a class="button button-panda" href="https://usa.hungrypanda.co/shop?brand=hungrypanda&amp;channel_source=linkout&amp;delivery_method=2&amp;isRedirect=1&amp;is_gfo=1&amp;rwg_token=AFd1xnFtHrMU1FcVa704Sq0MDLt6B2FFOge0UsFBYuFISUhX1ELLSNF5X5Cro_-_x5Zs5Kf-RlV8fX0uSAZIcjfAiW-bdLRrjt4vgM2UNSWiViBIyp_NP0Q%3D&amp;shopId=493841366" target="_blank" rel="noreferrer"><b>熊猫外卖</b><small>HungryPanda</small></a><a class="button button-outline" href="https://pos.chowbus.com/online-ordering/store/Chahalo-Berkeley/23921" target="_blank" rel="noreferrer"><b>到店自取</b><small>Store Pickup</small></a></div></div><div class="directions-link"><a href="https://maps.apple.com/?q=ChaHalo%20Berkeley&amp;address=2041%20University%20Ave%2C%20Berkeley%2C%20CA%2094704" target="_blank" rel="noreferrer">查看路线 · Directions ↗</a></div><p class="fine-print">订购时如对乳制品、坚果、咖啡因或其他成分过敏，请向店员咨询。<span>Please ask our team about dairy, nuts, caffeine, or other allergens when ordering.</span></p></div>
+  </section>
+</main>
+<footer><div class="brand footer-brand"><span class="brand-en">ChaHalo</span><span class="brand-cn">茶话弄</span></div><p>喝喝茶 · 说说话 · SIP · CHAT · CHILL</p><p>© <span data-year></span> ChaHalo Berkeley</p></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body></html>
