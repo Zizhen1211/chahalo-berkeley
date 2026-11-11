@@ -47,3 +47,47 @@
 .tea-title-panel>div{font-size:20px}
 @media(max-width:900px){.oat-section{grid-template-columns:1fr}.oat-section figure img{aspect-ratio:4/5}}
 @media(max-width:580px){.tea-title{padding:18px}.tea-title-panel{padding:28px 20px;border-radius:20px}.tea-title-panel>p{font-size:19px;margin-bottom:30px}.tea-title-panel>div{font-size:15px}}
+/* Mobile navigation and drink filters */
+@media (max-width: 900px) {
+  .site-header .site-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    transform: none;
+    max-height: calc(100vh - 82px);
+    overflow-y: auto;
+    justify-content: flex-start;
+    gap: 0;
+    padding: 8px 0;
+    background: var(--paper);
+  }
+
+  .site-header .site-nav.open {
+    display: flex;
+  }
+
+  .site-nav > a {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .site-nav b {
+    font-size: 18px;
+  }
+
+  .filter-row {
+    flex-wrap: wrap;
+    overflow: visible;
+  }
+
+  .filter {
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding: 8px 12px;
+    white-space: nowrap;
+  }
+}
